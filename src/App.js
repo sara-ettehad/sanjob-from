@@ -6,6 +6,7 @@ import {
   Routes
 } from 'react-router-dom';
 
+import '../src/style/home.css';
 
 
 function App() {
