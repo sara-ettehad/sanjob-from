@@ -1,12 +1,12 @@
 import React from 'react';
 
-import {FaCamera} from "react-icons/fa";
-import {FaInbox} from "react-icons/fa";
-import {FaHome} from "react-icons/fa";
-import {FaSearch} from "react-icons/fa";
-import {FaPlus} from "react-icons/fa";
-import {CiHeart} from "react-icons/ci";
-import {CiMenuKebab} from "react-icons/ci";
+import { IoCameraOutline } from "react-icons/io5";
+import { TbMessageCircleBolt } from "react-icons/tb";
+import { MdHomeFilled } from "react-icons/md";
+import { IoIosSearch } from "react-icons/io";
+import { FaPlus } from "react-icons/fa";
+import { CiHeart } from "react-icons/ci";
+import { BsThreeDotsVertical } from "react-icons/bs";
 import { FaRegComment } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
 import { MdSaveAlt } from "react-icons/md";
@@ -26,9 +26,9 @@ class Home extends React.Component{
 
                     <div className="header__wrapper">
                     
-                        <FaCamera/>
+                        <IoCameraOutline/>
                         <img src={logoSan} alt=''/>
-                        <FaInbox/>
+                        <TbMessageCircleBolt/>
 
                     </div>
                     
@@ -41,8 +41,8 @@ class Home extends React.Component{
 
                     <div className="postHeader__wrapper">
                     
-                        <img src={logoSan} alt=''/>
-                        <CiMenuKebab/>
+                        <div className='logo'></div>
+                        <BsThreeDotsVertical/>
 
                     </div>
 
@@ -72,7 +72,7 @@ class Home extends React.Component{
                     
                     5147739389
                     442 Rue Saint-Gabriel, Suite 112, Montreal H2Y 2Z9 🔹 Toronto
-                     </p>
+                    </p>
 
                     
                     
@@ -82,8 +82,8 @@ class Home extends React.Component{
 
                     <div className="footer__wrapper">
                     
-                        <FaHome/>
-                        <FaSearch/>
+                        <MdHomeFilled/>
+                        <IoIosSearch/>
                         <FaPlus/>
                         <CiHeart/>
                         <img src={logoSan} alt=''/>

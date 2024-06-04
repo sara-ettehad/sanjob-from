@@ -35,6 +35,17 @@
     border-color: black;
 }
 
+.logo{
+    background-image: url("../images/logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
 .posts__wrapper{
     display: flex;
     flex-direction: row;
