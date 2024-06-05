@@ -2,15 +2,14 @@ import React from 'react';
 
 import { IoCameraOutline } from "react-icons/io5";
 import { TbMessageCircleBolt } from "react-icons/tb";
-import { MdHomeFilled } from "react-icons/md";
-import { IoIosSearch } from "react-icons/io";
-import { FaPlus } from "react-icons/fa";
-import { CiHeart } from "react-icons/ci";
+import { GrHomeRounded } from "react-icons/gr";
+import { IoSearch } from "react-icons/io5";
+import { FaRegSquarePlus } from "react-icons/fa6";
+import { FaRegHeart } from "react-icons/fa";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { FaRegComment } from "react-icons/fa";
-import { IoIosSend } from "react-icons/io";
-import { MdSaveAlt } from "react-icons/md";
-
+import { LuSend } from "react-icons/lu";
+import { GrSave } from "react-icons/gr";
 
 
 
@@ -54,13 +53,13 @@ class Home extends React.Component{
                     <div className="postsDetail__wrapper">
                     
                         <div className="left__wrapper">
-                            <CiHeart/>
+                            <FaRegHeart/>
                             <FaRegComment/>
-                            <IoIosSend/>
+                            <LuSend/>
                         </div>
                         
                         <div className="right__wrapper">
-                            <MdSaveAlt/>
+                            <GrSave/>
                         </div>
 
                     </div>
@@ -82,10 +81,10 @@ class Home extends React.Component{
 
                     <div className="footer__wrapper">
                     
-                        <MdHomeFilled/>
-                        <IoIosSearch/>
-                        <FaPlus/>
-                        <CiHeart/>
+                        <GrHomeRounded/>
+                        <IoSearch/>
+                        <FaRegSquarePlus/>
+                        <FaRegHeart/>
                         <img src={logoSan} alt=''/>
 
                     </div>
