@@ -1,24 +1,20 @@
 import React from 'react';
 
-import Header from '../components/Header';
+import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
-import Sabapost from '../components/posts/Sabapost.js';
 
-
-
-class Home extends React.Component{
+class BusinessPage extends React.Component{
     render(){
         return (
             <div>
                 <Header/>
-
-                <Sabapost/> 
-
+                
+                <div className='logo'></div> 
+                
                 <Footer/>
-
             </div>
         );
     }
 }
 
-export default Home;
+export default BusinessPage;

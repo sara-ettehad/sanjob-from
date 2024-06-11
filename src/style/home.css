@@ -75,14 +75,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 30px;
-}
-
-.footer__wrapper img{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border-color: black;
+    margin: 10px 30px;
 }
 
 .comment-icon{
