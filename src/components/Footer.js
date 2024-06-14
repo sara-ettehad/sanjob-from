@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 import { GrHomeRounded } from "react-icons/gr";
 import { IoSearch } from "react-icons/io5";
@@ -16,8 +17,7 @@ class Footer extends React.Component{
                 <IoSearch/>
                 <FaRegSquarePlus/>
                 <FaRegHeart/>
-                <div className='logo'></div>
-
+                <Link to="/BusinessPage"> <div className='logo'></div> </Link>
             </div>
             
             

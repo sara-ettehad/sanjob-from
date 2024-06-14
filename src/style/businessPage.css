@@ -1,0 +1,76 @@
+.profileHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px;
+    border-bottom: solid 1px rgb(144, 142, 142);
+}
+
+.profileLogo{
+    width: 160px;
+    height: 160px;
+    margin-right: 50px;
+}
+
+.profileHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profileDetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileDetailTop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profileDetailTop button{
+    height: 30px;
+    padding: 0px 10px;
+    border: 0px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.profileDetailTop h1{
+    margin-right: 20px;
+}
+
+.profileDetailMidle{
+    display: flex;
+    flex-direction: row;
+}
+
+.profileDetailMidle span{
+    font-weight: bold;
+}
+
+.profileDetailMidle p{
+    margin-right: 20px;
+}
+
+.profileDetailBottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileDetailBottom span{
+    color: darkblue;
+}
+
+.profileGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.profileGrid img{
+    width: auto;
+    width: 98%;
+    margin: 10px;
+}

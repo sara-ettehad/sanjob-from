@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 
 import '../src/style/home.css';
+import './../src/style/businessPage.css';
+
 import BusinessPage from './pages/BusinessPage';
 
 
