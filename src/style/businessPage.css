@@ -65,12 +65,15 @@
 }
 
 .profileGrid{
+    margin: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .profileGrid img{
     width: auto;
-    width: 98%;
-    margin: 10px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
 }

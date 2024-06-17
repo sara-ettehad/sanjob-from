@@ -71,6 +71,8 @@
 }
 
 #footer{
+    bottom: 0px;
+    margin-top: 10px;
     border-top: solid 1px rgb(144, 142, 142);
 }
 
